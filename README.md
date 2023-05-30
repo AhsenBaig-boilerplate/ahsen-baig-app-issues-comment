@@ -33,7 +33,6 @@ npm start
 
 ### GitHub sync
 
-
 ```sh
 git init
 git remote add origin https://github.com/AhsenBaig-boilerplate/ahsen-baig-app-issues-comment.git
