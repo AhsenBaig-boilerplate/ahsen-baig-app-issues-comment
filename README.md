@@ -31,6 +31,15 @@ npm start
 >npm start -- --port 8000
 >```
 
+### GitHub sync
+
+
+```sh
+git init
+git remote add origin https://github.com/AhsenBaig-boilerplate/ahsen-baig-app-issues-comment.git
+git pull origin main --allow-unrelated-histories
+```
+
 ### Start smee
 > See .env WEBHOOK_PROXY_URL for smee url
 > ```sh
