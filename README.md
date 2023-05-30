@@ -8,11 +8,11 @@
 
 > Version: v5.0.9 - As the latest version of Probot is not compatible with Node v8.0.0 and higher
 >```
->npx create-probot-app@v5.0.9 AhsenBaig-App-Issues-Comment
+>npx create-probot-app@v5.0.9 ahsen-baig-app-issues-comment
 >```
 
 ```sh
-code .\AhsenBaig-App-Issues-Comment\
+code .\ahsen-baig-app-issues-comment\
 ```
 
 ### Start the app
@@ -41,10 +41,10 @@ npm start
 
 ```sh
 # 1. Build container
-docker build -t AhsenBaig-App-Issues-Comment .
+docker build -t ahsen-baig-app-issues-comment .
 
 # 2. Start container
-docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> AhsenBaig-App-Issues-Comment
+docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> ahsen-baig-app-issues-comment
 ```
 
 ## Resources
